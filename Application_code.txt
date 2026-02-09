@@ -1,0 +1,11 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>   
+<title>My NGINX App</title>
+</head>
+<body>    
+<h1>Welcome to My NGINX App</h1>    
+<p>This app is deployed via Jenkins + Terraform.</p>
+</body>
+</html>
