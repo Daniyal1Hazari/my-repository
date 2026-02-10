@@ -1,0 +1,57 @@
+                ┌──────────────────────┐
+                │      Developer       │
+                │   Pushes Code to     │
+                │     Git Repository   │
+                └───────────┬──────────┘
+                            │
+                            ▼
+                ┌──────────────────────┐
+                │   Git Webhook        │
+                │ Triggers Jenkins     │
+                └───────────┬──────────┘
+                            │
+                            ▼
+                ┌──────────────────────┐
+                │   Jenkins Job 1      │
+                │ (Pipeline Trigger)   │
+                └───────────┬──────────┘
+                            │
+                            ▼
+                ┌──────────────────────┐
+                │ Jenkins Job 2-5      │
+                │ Sequential Execution │
+                └───────────┬──────────┘
+                            │
+                            ▼
+                ┌──────────────────────┐
+                │   Jenkinsfile        │
+                │ Executes Terraform   │
+                └───────────┬──────────┘
+                            │
+                            ▼
+                ┌──────────────────────────────────┐
+                │        Terraform Provisions      │
+                │----------------------------------│
+                │  • Launch Template (LT)          │
+                │  • Auto Scaling Group (ASG)      │
+                │  • 2 EC2 Instances               │
+                │  • Application Load Balancer     │
+                └───────────┬──────────────────────┘
+                            │
+                            ▼
+                ┌──────────────────────┐
+                │  NGINX App Deployed  │
+                │  on EC2 Instances    │
+                └───────────┬──────────┘
+                            │
+                            ▼
+                ┌──────────────────────┐
+                │ User Accesses ALB    │
+                │  via ALB DNS Name    │
+                └───────────┬──────────┘
+                            │
+                            ▼
+                ┌──────────────────────┐
+                │  Traffic Distributed │
+                │  Across 2 EC2 Nodes  │
+                └──────────────────────┘
