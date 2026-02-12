@@ -1,0 +1,331 @@
+    1  apt update -y
+    2  apt install openjdk-17-jre -y
+    3  java -version
+    4  sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key~
+    5  sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key
+    6  echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]"   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+    7  sudo apt update -y
+    8  sudo apt install jenkins -y
+    9  jenkins version
+   10  cat /var/lib/jenkins/secrets/initialAdminPassword
+   11  cd desktop
+   12  git init
+   13  git add Nginx_Application_Code.docx
+   14  git add Nginx_Application_Code
+   15  cd Downloads
+   16  git --version
+   17  git config --global user.name "Daniyal1Hazari"
+   18  git config --global user.email "daniyalhazari2000@gmail.com"
+   19  git clone https://github.com/Daniyal1Hazari/nginx-code-central-repo.git
+   20  cd nginx-code-central-repo
+   21  cd
+   22  cd nginx-code-central-repo
+   23  git init
+   24  ls
+   25  git add Nginx_Application_Code.docx
+   26  nano Application_code.txt
+   27  cd
+   28  nano Application_code.txt
+   29  ls
+   30  git --version
+   31  git config --global user.name "Daniyal1Hazari"
+   32  git config --global user.email "daniyalhazari2000@gmail.com"
+   33  git clone https://github.com/Daniyal1Hazari/nginx-code-central-repo.git
+   34  cd nginx-code-central-repo
+   35  git status
+   36  mv /root/Application_code.txt
+   37  ls
+   38  git add Application_code.txt
+   39  git commit -m "Commit application code"
+   40  git push origin main
+   41  nano Application_code.txt
+   42  git add Application_code.txt
+   43  git commit -m "Commit application code"
+   44  git push origin main
+   45  apt update -y
+   46  jenkins version
+   47  cat /var/lib/jenkins/secrets/initialAdminPassword
+   48  ain
+   49  git add Application_code.txt
+   50  git commit -m "Commit application code"
+   51  git push origin main
+   52  apt update -y
+   53  nano Application_code.txt
+   54  cd my-repository
+   55  git config --global user.name "Daniyal1Hazari"
+   56  git config --global user.email "daniyalhazari2000@gmail.com"
+   57  git clone https://github.com/Daniyal1Hazari/my-repository.git
+   58  cd my-repository
+   59  git add Applicatio_code.txt
+   60  git add Application_code.txt
+   61  git init
+   62  git add Application_code.txt
+   63  mv /root/Application_code.txt
+   64  cd
+   65  ls
+   66  rm nginx-code-central-repo
+   67  rmdir nginx-code-central-repo
+   68  nano Application_code.txt
+   69  ls
+   70  cd my-repository
+   71  git add Applicatio_code.txt
+   72  git add Application_code.txt
+   73  mv /root/Application_code.txt
+   74  cd
+   75  git config --global user.name "Daniyal1Hazari"
+   76  git config --global user.email "daniyalhazari2000@gmail.com"
+   77  git clone https://github.com/Daniyal1Hazari/my-repository.git
+   78  cd my-repository
+   79  mv /root/Application_code.txt
+   80  ls
+   81  pwd
+   82  cd my-repository
+   83  ls
+   84  mv /root/Application_code.txt
+   85  ls
+   86  cd
+   87  ls
+   88  cd my-repository
+   89  mv /root/Application_code.txt
+   90  mv /root/Application_code.txt .
+   91  ls
+   92  git add Application_code.txt
+   93  git commit -m "Added application code file"
+   94  git push origin main
+   95  cd
+   96  aws configure
+   97  apt  install awscli
+   98  snap install aws-cli
+   99  sudo apt install unzip curl -y
+  100  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+  101  unzip awscliv2.zip
+  102  sudo ./aws/install
+  103  aws --version
+  104  aws configure
+  105  aws sts get-caller-identity
+  106  apt update -y
+  107  nano app_code.txt
+  108  ls
+  109  cd my-repository
+  110  mv /rrot/app_code.txt .
+  111  mv /root/app_code.txt .
+  112  ls
+  113  git add app_code.txt
+  114  git commit -m "Commit application code"
+  115  git push origin main
+  116  cd
+  117  ls
+  118  rmdir nginx-code-central-repo
+  119  cd nginx-code-central-repo
+  120  ls
+  121  rm Application_code.txt
+  122  ls
+  123  cd
+  124  rmdir nginx-code-central-repo
+  125  cd nginx-code-central-repo
+  126  ls
+  127  l
+  128  cd
+  129  ls
+  130  rmdir nginx-code-central-repo
+  131  rmdir -f nginx-code-central-repo
+  132  rmdir --f nginx-code-central-repo
+  133  rmdir -force nginx-code-central-repo
+  134  rmdir -rf nginx-code-central-repo
+  135  rm -rf nginx-code-central-repo
+  136  ls
+  137  cd my-repository
+  138  ls
+  139  rm Application_code.txt
+  140  ls
+  141  cd my-repository
+  142  ls
+  143  git add app_code.txt
+  144  git add commit -m "Commit application code"
+  145  git commit -m "Commit application code"
+  146  ls
+  147  cat app_code.txt
+  148  ls
+  149  git add app_code.txt
+  150  git commit -m "Commit application code"
+  151  git push origin main
+  152  git pull origin main --allow-unrelated-histories~
+  153  git push origin main
+  154  cd
+  155  git pull origin main --allow-unrelated-histories
+  156  cd my-repository
+  157  git pull origin main --allow-unrelated-histories
+  158  cd
+  159  rm -rf ~/my-repository
+  160  ls
+  161  git clone https://github.com/Daniyal1Hazari/my-repository.git
+  162  nano app_code.txt
+  163  ls
+  164  git init
+  165  cd my-repository
+  166  ls
+  167  mv /root/app_code.txt .
+  168  ls
+  169  git add app_code.txt
+  170  git commit -m "1stc ommmit"
+  171  git push origin main
+  172  cd
+  173  rm -rf ~/my-repository
+  174  ls
+  175  nano app_code.txt
+  176  ls
+  177  git clone https://github.com/Daniyal1Hazari/my-repository.git
+  178  cd my-repository
+  179  ls
+  180  mv /rrot/app_code.txt .
+  181  mv /root/app_code.txt .
+  182  ls
+  183  git add app_code.txt
+  184  git commit -m "1stc ommmit"
+  185  git push origin main
+  186  cd
+  187  rm -rf ~/my-repository
+  188  ls
+  189  nano app_code.txt
+  190  ls
+  191  git clone https://github.com/Daniyal1Hazari/my-repository.git
+  192  cd my-repository
+  193  mv /root/app_code.txt .
+  194  git add app_code.txt
+  195  git commit -m "1stc ommmit"
+  196  git push origin main
+  197  cd
+  198  apt update -y
+  199  sudo apt install -y yum-utils
+  200  sudo apt install -y gnupg software-properties-common curl
+  201  curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -~
+  202  curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+  203  sudo apt-add-repository "deb https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+  204  sudo apt update
+  205  apt install terraform -y
+  206  terraform -v
+  207  sudo systemctl restart jenkins
+  208  aws configure
+  209  systemctl restart jenkins
+  210  apt update -y
+  211  sudo fallocate -l 2G /swapfile
+  212  sudo chmod 600 /swapfile
+  213  sudo mkswap /swapfile
+  214  echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+  215  free -m
+  216  sudo systemctl restart jenkins
+  217  history
+  218  sudo systemctl restart jenkins
+  219  systemctl restart jenkins
+  220  systemctl daemon-reload
+  221  systemctl restart jenkins
+  222  cd /var/lib/jenkins/workspace/Jenkins-pipeline
+  223  rm -rf *
+  224  cd
+  225  aws sts get-caller-identity
+  226  cd /var/lib/jenkins/workspace/Jenkins-pipeline
+  227  aws sts get-caller-identity
+  228  apt update -y
+  229  top
+  230  free -m
+  231  ps aux | grep terraform
+  232  df -h
+  233  apt update -y
+  234  sudo rm -rf /tmp/*
+  235  df -h
+  236  apt update -y
+  237  sudo du -h --max-depth=1 /var/lib/jenkins | sort -h
+  238  sudo rm -rf /var/lib/jenkins/workspace/*
+  239  sudo du -h --max-depth=1 /var/lib/jenkins | sort -h
+  240  sudo rm -rf /var/lib/jenkins/jobs/*/builds/*
+  241  sudo find /var/lib/jenkins -name ".terraform" -type d -exec rm -rf {} +
+  242  sudo systemctl restart jenkins
+  243  sudo growpart /dev/xvda 1
+  244  sudo resize2fs /dev/xvda1
+  245  apt update -y
+  246  sudo find /var/lib/jenkins -name ".terraform" -type d -exec rm -rf {} +
+  247  systemctl restart jenkins
+  248  df -h
+  249  sudo systemctl status jenkins
+  250  sudo cat /etc/default/jenkins
+  251  df -h
+  252  cd /var/lib/jenkins
+  253  df -h
+  254  cd /var/lib/jenkinscd
+  255  cd
+  256  sudo rm -rf /var/lib/jenkins/jobs/*/builds/*
+  257  sudo rm -rf /var/lib/jenkins/workspace/*
+  258  sudo find /var/lib/jenkins -name ".terraform" -type d -exec rm -rf {} +
+  259  sudo systemctl restart jenkins
+  260  df -h
+  261  sudo du -h --max-depth=1 / | sort -h
+  262  sudo du -h --max-depth=1 /var/lib/jenkins | sort -h
+  263  sudo du -h --max-depth=1 / | sort -h
+  264  snap list --all
+  265  sudo snap set system refresh.retain=2
+  266  sudo snap list --all | awk '/disabled/{print $1, $3}' | while read snapname revision; do     sudo snap remove "$snapname" --revision="$revision"; done
+  267  sudo snap list --all | awk '/disabled/{print $1, $3}' | while read snapname revision; do     sudo snap remove "$snapname" --revision="$revision"; done
+  268  sudo apt clean
+  269  df -h
+  270  sudo journalctl --disk-usage
+  271  sudo journalctl --vacuum-size=100M
+  272  sudo apt autoremove -y
+  273  sudo apt clean
+  274  sudo du -h --max-depth=1 /var | sort -h
+  275  sudo rm -rf /var/log/*.gz
+  276  sudo rm -rf /var/log/*.[0-9]
+  277  df -h
+  278  sudo growpart /dev/nvme0n1 1
+  279  df -h
+  280  apt update -y
+  281  df -h
+  282  lsblk
+  283  df -h
+  284  sudo growpart /dev/nvme0n1 1
+  285  sudo resize2fs /dev/nvme0n1p1
+  286  df -h
+  287  apt udate -y
+  288  apt update -y
+  289  systemctl restart jenkins
+  290  apt update -y
+  291  ls
+  292  cd my-repository
+  293  ls
+  294  rm app_code.txt
+  295  ls
+  296  nano app_code.txt
+  297  ls
+  298  git init
+  299  git add app_code.txt
+  300  git commit -m "1st commit"
+  301  rmdir Jenkinsfile
+  302  ls
+  303  rm Jenkinsfile
+  304  ls
+  305  git add app_code.txt
+  306  git commit -m "1st commit"
+  307  git push origin main
+  308  cd
+  309  ls
+  310  rmdir my-repository
+  311  rmdir --f my-repository
+  312  rmdir --force my-repository
+  313  rm -rf  my-repository
+  314  ls
+  315  git clone https://github.com/Daniyal1Hazari/my-repository.git
+  316  ls
+  317  nano app_code.txt
+  318  rm app_code.txt
+  319  ls
+  320  nano app_code.txt
+  321  ls
+  322  cd my-repository
+  323  mv /root/app_code.txt .
+  324  ls
+  325  git init
+  326  git add app_code.txt
+  327  git commit -m "Commit"
+  328  git push origin main
+  329  cd
+  330  terraform -version
+  331  history
